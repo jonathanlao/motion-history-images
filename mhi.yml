@@ -1,0 +1,18 @@
+name: mhi
+channels:
+  - pytorch
+  - anaconda
+  - defaults
+dependencies:
+  - h5py=2.9.0
+  - numpy=1.17.3
+  - python=3.6.7
+  - scipy=1.2.1
+  - setuptools=39.1.0
+  - cython=0.29
+  - pip:
+    - scikit-learn==0.22.2
+    - opencv-python==3.4.3.18
+    - skorch==0.5.0.post0
+    - matplotlib==3.2.1
+
